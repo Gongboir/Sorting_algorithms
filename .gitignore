@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Build artifacts
+main
+*.o
+*.out
+*.exe
+*.dSYM/
+
+# Python / virtualenv
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
