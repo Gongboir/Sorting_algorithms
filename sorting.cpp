@@ -281,8 +281,8 @@ namespace sorting
 		array.resize(n);
 
 		for (unsigned int i = 0; i < array.size(); i++)
-			array[i] = rand() % 10;
-		// array[i]=rand() % 1000000;
+			// array[i] = rand() % 10;
+			array[i] = rand() % 1000000;
 	}
 
 }
